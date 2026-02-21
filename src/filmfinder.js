@@ -1,10 +1,10 @@
 // Consolidated JavaScript for FilmFinder
 
 // --- Constants 
-const API_KEY = "YOUR_TMDB_API_KEY"; // Replace with actual API key
+// --- Constants (OMDb) ---
+const API_KEY = "f9535825eb2f61e3e35fc0d1a0a7d32b";
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
-
 // --- API Fetch Helper ---
 // Fetches data from a TMDB API endpoint with optional query parameters
 async function fetchData(endpoint, params = {}) {
